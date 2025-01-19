@@ -39,7 +39,7 @@ const Navbar = () => {
 							variants={riseUpItem}
 							src={Logo}
 							alt='Logo'
-							className='h-[25px]'
+							className='h-[100px]'
 						/>
 					</Link>
 					<Link
