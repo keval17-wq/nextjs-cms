@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import Logo from "../../assets/images/Logo White.png";
+import Logo from "../../assets/images/Logo.png";
 import FooterLink from "../../components/FooterLink/FooterLink";
 import { motion } from "framer-motion";
 import { useContext } from "react";
@@ -30,15 +30,14 @@ const Footer = () => {
                 variants={riseUpItem}
                 src={Logo}
                 alt="Logo"
-                className="h-[25px] my-4"
+                className="h-[100px] my-4"
               />
             </Link>
             <motion.p
               variants={riseUpItem}
               className="text-[#929294] font-medium mb-8 lg:text-base text-[80%]"
             >
-              Palau Sebira, Kepulauan Seribu Utara, Kab. Administrasi Kepulauan
-              Seribu, Daerah Khusus Ibukota Jakarta
+              Selective enough to be personally invested in your everyday success. 
             </motion.p>
             <motion.span variants={riseUpItem}>
               <FooterLink text="Faq" />
@@ -56,25 +55,25 @@ const Footer = () => {
             className="md:w-[40%] flex flex-col justify-between"
           >
             <motion.span variants={riseUpItem}>
-              <FooterLink text="Email" handle="Hello@Digitaly.yeah" />
+              <FooterLink text="Email" handle="admin@rank2revenue.com.au" />
             </motion.span>
             <motion.span variants={riseUpItem}>
-              <FooterLink text="Instagram" handle="@Digitaly" />
+              <FooterLink text="Instagram" handle="@rank2revenue" />
             </motion.span>
             <motion.span variants={riseUpItem}>
-              <FooterLink text="Twitter" handle="@Digitaly" />
+              <FooterLink text="Twitter" handle="@rank2revenue" />
             </motion.span>
             <motion.span variants={riseUpItem}>
-              <FooterLink text="Medium" handle="@Digitaly" />
+              <FooterLink text="Medium" handle="@rank2revenue" />
             </motion.span>
             <motion.span variants={riseUpItem}>
               <FooterLink text="Telegram" handle="@Digitaly" />
             </motion.span>
             <motion.span variants={riseUpItem}>
-              <FooterLink text="LinkedIn" handle="@Digitaly" />
+              <FooterLink text="LinkedIn" handle="@ranktorevenue" />
             </motion.span>
             <motion.span variants={riseUpItem}>
-              <FooterLink text="Facebook" handle="@Digitaly" />
+              <FooterLink text="Facebook" handle="@ranktorevenue" />
             </motion.span>
           </motion.div>
         </div>

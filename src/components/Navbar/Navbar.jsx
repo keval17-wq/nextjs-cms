@@ -34,6 +34,7 @@ const Navbar = () => {
 						className='cursor-pointer text-gray-700 font-semibold text-[80%] lg:text-[1rem] pt-[8px] hidden md:flex'>
 						<motion.span variants={riseUpItem}>Project</motion.span>
 					</Link>
+					
 					<Link to='home' className='cursor-pointer'>
 						<motion.img
 							variants={riseUpItem}
@@ -42,6 +43,7 @@ const Navbar = () => {
 							className='h-[100px]'
 						/>
 					</Link>
+					
 					<Link
 						to='services'
 						className='cursor-pointer text-gray-700 font-semibold text-[80%] lg:text-[1rem] pt-[8px] hidden md:flex'
